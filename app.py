@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 import os
 
-
 def is_yellow(car_frame):
     # BRG -> HSV color space
     hsv = cv2.cvtColor(car_frame, cv2.COLOR_BGR2HSV)
